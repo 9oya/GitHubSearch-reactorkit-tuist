@@ -12,7 +12,8 @@ let project = Project.makeModule(
     name: "Feature",
     product: .staticFramework,
     dependencies: [
-        .Project.Service
+        .Project.Service,
+        .Project.ThirdPartyLib
     ],
     resources: ["Resources/**"]
 )
