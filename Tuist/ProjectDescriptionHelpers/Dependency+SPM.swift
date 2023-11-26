@@ -33,7 +33,11 @@ public extension Package {
 public extension TargetDependency.SPM {
     static let RxSwift: TargetDependency = .package(product: "RxSwift")
     static let RxCocoa: TargetDependency = .package(product: "RxCocoa")
+    static let RxCocoaDynamic: TargetDependency = .package(product: "RxCocoa-Dynamic")
     static let RxRelay: TargetDependency = .package(product: "RxRelay")
+    static let RxTest: TargetDependency = .package(product: "RxTest")
+    static let RxBlocking: TargetDependency = .package(product: "RxBlocking")
+    static let RxBlockingDynamic: TargetDependency = .package(product: "RxBlocking-Dynamic")
 
     static let RxDataSources: TargetDependency = .package(product: "RxDataSources")
     static let ReactorKit: TargetDependency = .package(product: "ReactorKit")
